@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<Devices>
+    <Device type="custom" id="Intuition">
+        <Name>Network OWL Intuition sensor</Name>
+        <ConfigUI>
+            <Field id="address" type="textfield">
+                <Label>Network OWL ID (MAC Address):</Label>
+            </Field>
+            <Field id="owlType" type="menu" defaultValue="pv">
+                <Label>NetworkOwl Intuition model:</Label>
+                <List>
+                    <Option value="pv">Intuition-pv</Option>
+                    <Option value="lc">Intuition-lc</Option>
+                </List>
+                <CallbackMethod>owlTypeChanged</CallbackMethod>
+            </Field>
+        </ConfigUI>
+        <UiDisplayStateId>genWattsNow</UiDisplayStateId>
+        <States>
+            <State id="networkOwlId">
+                <ValueType>String</ValueType>
+                <TriggerLabel>Network OWL ID</TriggerLabel>
+                <ControlPageLabel>Network OWL ID</ControlPageLabel>
+            </State>
+            
+            <State id="networkOwlType">
+                <ValueType>String</ValueType>
+                <TriggerLabel>Network OWL Type</TriggerLabel>
+                <ControlPageLabel>Network OWL Type</ControlPageLabel>
+            </State>
+            
+            <State id="signalStrength">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Signal Strength</TriggerLabel>
+                <ControlPageLabel>Signal Strength</ControlPageLabel>
+            </State>
+            
+            <State id="signalQuality">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Signal Quality</TriggerLabel>
+                <ControlPageLabel>Signal Quality</ControlPageLabel>
+            </State>
+            
+            <State id="batteryLevel">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Battery Level</TriggerLabel>
+                <ControlPageLabel>Battery Level</ControlPageLabel>
+            </State>
+            
+            <State id="usedWattsNow">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Now</TriggerLabel>
+                <ControlPageLabel>Used Watts Now</ControlPageLabel>
+            </State>
+            
+            <State id="usedWattsToday">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Today</TriggerLabel>
+                <ControlPageLabel>Used Watts Today</ControlPageLabel>
+            </State>
+
+            <State id="usedWattsNowPh1">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Now Phase 1</TriggerLabel>
+                <ControlPageLabel>Used Watts Now Phase 1</ControlPageLabel>
+            </State>
+            
+            <State id="usedWattsTodayPh1">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Today Phase 1</TriggerLabel>
+                <ControlPageLabel>Used Watts Today Phase 1</ControlPageLabel>
+            </State>
+
+            <State id="usedWattsNowPh2">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Now Phase 2</TriggerLabel>
+                <ControlPageLabel>Used Watts Now Phase 2</ControlPageLabel>
+            </State>
+            
+            <State id="usedWattsTodayPh2">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Today Phase 2</TriggerLabel>
+                <ControlPageLabel>Used Watts Today Phase 2</ControlPageLabel>
+            </State>
+
+            <State id="usedWattsNowPh3">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Now Phase 3</TriggerLabel>
+                <ControlPageLabel>Used Watts Now Phase 3</ControlPageLabel>
+            </State>
+            
+            <State id="usedWattsTodayPh3">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Used Watts Today Phase 3</TriggerLabel>
+                <ControlPageLabel>Used Watts Today Phase 3</ControlPageLabel>
+            </State>
+            
+            <State id="genWattsNow">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Generated Watts Now</TriggerLabel>
+                <ControlPageLabel>Generated Watts Now</ControlPageLabel>
+            </State>
+            
+            <State id="genWattsToday">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Generated Watts Today</TriggerLabel>
+                <ControlPageLabel>Generated Watts Today</ControlPageLabel>
+            </State>
+            
+            <State id="expWattsNow">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Exported Watts Now</TriggerLabel>
+                <ControlPageLabel>Exported Watts Now</ControlPageLabel>
+            </State>
+            
+            <State id="expWattsToday">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Exported Watts Today</TriggerLabel>
+                <ControlPageLabel>Exported Watts Today</ControlPageLabel>
+            </State>
+            
+            <State id="weatherCode">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Weather Code</TriggerLabel>
+                <ControlPageLabel>Weather Code</ControlPageLabel>
+            </State>
+            
+            <State id="weatherText">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Weather Text</TriggerLabel>
+                <ControlPageLabel>Weather Text</ControlPageLabel>
+            </State>
+            
+            <State id="temperature">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Temperature</TriggerLabel>
+                <ControlPageLabel>Temperature</ControlPageLabel>
+            </State>
+            
+            <State id="lastUpdated">
+                <ValueType>String</ValueType>
+                <TriggerLabel>Last Updated</TriggerLabel>
+                <ControlPageLabel>Last Updated</ControlPageLabel>
+            </State>
+            
+            <State id="hotWaterTemp">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Hot Water Temperature</TriggerLabel>
+                <ControlPageLabel>Hot Water Temperature</ControlPageLabel>
+            </State>
+            
+            <State id="hotWaterTempSetPoint">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Required Hot Water Temperature</TriggerLabel>
+                <ControlPageLabel>Required Hot Water Temperature</ControlPageLabel>
+            </State>
+            
+            <State id="heatingTemp">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Heating Temperature</TriggerLabel>
+                <ControlPageLabel>Heating Temperature</ControlPageLabel>
+            </State>
+            
+            <State id="heatingTempSetPoint">
+                <ValueType>Integer</ValueType>
+                <TriggerLabel>Required Heating Temperature</TriggerLabel>
+                <ControlPageLabel>Required Heating Temperature</ControlPageLabel>
+            </State>                                    
+        </States>
+    </Device>
+</Devices>
