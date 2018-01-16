@@ -2,7 +2,7 @@
 # prints XML responses received over multicast
 # changed to use Twisted framework
 #
-# v0.3 Nick Smith 11 November 2012
+# v0.3 Nick 11 November 2012
 
 
 from twisted.internet.protocol import DatagramProtocol

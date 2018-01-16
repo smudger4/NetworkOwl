@@ -1,7 +1,7 @@
 # debug client for Intuition / Network Owl
 # parse debug data
 #
-# v0.2 Nick Smith 28 March 2016
+# v0.2 Nick 28 March 2016
 
 from NetworkOwl import NetworkOwl
 
@@ -11,7 +11,7 @@ from NetworkOwl import NetworkOwl
 # set OWLTYPE to either 'pv' or 'lc' depending on type of OWL being tested
 # set SPLUNK to either 'Yes' or 'No' depending on type of logging required
 DEBUG = True
-OWLADDR = '443719000492'
+OWLADDR = 'OWL ADDR HERE'
 OWLTYPE = 'pv'
 
 

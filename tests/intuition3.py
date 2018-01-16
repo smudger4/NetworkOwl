@@ -3,7 +3,7 @@
 # changed to use Twisted framework
 # supports Intuition-pv & Intuition-lc devices
 #
-# v0.7 Nick Smith 22 April 2016
+# v0.7 Nick 22 April 2016
 
 from NetworkOwl import NetworkOwl
 import time
@@ -13,7 +13,7 @@ import time
 # set OWLADDR to be MAC address of NetworkOwl
 # set OWLTYPE to either 'pv' or 'lc' depending on type of OWL being tested
 DEBUG = True
-OWLADDR = '443719000492'
+OWLADDR = 'OWL ADDR HERE'
 OWLTYPE = 'pv'
 
 class logger(object):

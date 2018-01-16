@@ -1,7 +1,7 @@
 # listener client for Intuition-pv / Network Owl
 # prints XML responses received over multicast
 #
-# v0.2 Nick Smith 10 October 2012
+# v0.2 Nick 10 October 2012
 
 
 import socket
