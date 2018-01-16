@@ -1,6 +1,6 @@
 # NetworkOwl
 
-The [NetworkOWL](http://www.theowl.com/owl-intuition/) interfaces with a range of sensors from the OWL Intuition family. This plugin extends the [Indigo Domotics Indigo](http://www.indigodomo.com/index.html) Mac home automation application to support the NetworkOwl, the Intuition-pv &amp; lc electricity sensors and the Intuition home heating &amp; hot water sensors.
+The [NetworkOWL](http://www.theowl.com/index.php/owl-intuition/) interfaces with a range of sensors from the OWL Intuition family. This plugin extends the [Indigo Domotics Indigo](http://www.indigodomo.com/index.html) Mac home automation application to support the NetworkOwl, the Intuition-pv &amp; lc electricity sensors and the Intuition home heating &amp; hot water sensors.
 
 ## Requirements
 

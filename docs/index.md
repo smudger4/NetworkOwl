@@ -3,7 +3,7 @@ title: Indigo NetworkOwl Plugin
 description: Indigo plugin to read electricity consumption &amp; solar generation data from a NetworkOwl device 
 ---
 
-The [NetworkOWL](http://www.theowl.com/owl-intuition/) interfaces with a range of sensors from the OWL Intuition family. This plugin extends the [Indigo Domotics Indigo](http://www.indigodomo.com/index.html) Mac home automation application to support the NetworkOwl, the Intuition-pv &amp; lc electricity sensors and the Intuition home heating &amp; hot water sensors.
+The [NetworkOWL](http://www.theowl.com/index.php/owl-intuition/) interfaces with a range of sensors from the OWL Intuition family. This plugin extends the [Indigo Domotics Indigo](http://www.indigodomo.com/index.html) Mac home automation application to support the NetworkOwl, the Intuition-pv &amp; lc electricity sensors and the Intuition home heating &amp; hot water sensors.
 
 The [Intuition-pv](http://www.theowl.com/index.php/energy-monitors/solar-pv-monitoring/intuition-pv/) sensor provides real-time electricity consumption &amp; solar generation data to the NetworkOWL, which provides the data both to the OWL Intuition cloud application and as a multicast stream on the local network. The NetworkOwl Indigo plugin joins this multicast stream and updates Indigo device states based on the data received.
 
@@ -49,4 +49,4 @@ Indigo V5 or later is required
 * v1.1 - 9 April 2013: Updated to support Intuition-lc
 * 1.0 - 24 November 2012: Initial release
 
-[Back to Index](https://github.com/smudger4/smudger4.github.io)
+[Back to Index](https://smudger4.github.io)
